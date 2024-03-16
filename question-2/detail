@@ -1,0 +1,14 @@
+
+                                                //DETAILS OF MY CODE
+
+// let magician_name: string[] = ["Abracadabra", "Presto", "Alakazam", "Hocus", "Pocus"]; - This line declares a variable named magician_name and initializes it with an array of strings. The : string[] syntax specifies that magician_name is an array of strings.
+
+// function show_magicians(magician_name: string[]) { - This line defines a function named show_magicians. It takes one parameter named magician_name, which is expected to be an array of strings.
+
+// console.log("Magician's Names are as follows:"); - This line prints a message to the console indicating that the magician names will be listed.
+
+// for (const item of magician_name) { - This line starts a for loop that iterates over each element of the magician_name array. const item declares a constant variable item which will hold the value of each element in the array during each iteration.
+
+// console.log(item); - This line prints the value of the current element (item) to the console. Inside the loop, this line is executed once for each element in the magician_name array.
+
+// show_magicians(magician_name); - This line calls the show_magicians function and passes the magician_name array as an argument. This triggers the execution of the function, causing the magician names to be printed to the console.

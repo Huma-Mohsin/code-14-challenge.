@@ -1,0 +1,40 @@
+Objective:
+
+The objective is to create a function called make_album() that builds an object describing a music album in TypeScript.
+Album Interface:
+
+An interface named Album is defined. It describes the structure of an album object.
+It contains three properties:
+artist: A string representing the name of the artist.
+title: A string representing the title of the album.
+tracks (optional): An optional number property representing the number of tracks on the album.
+make_album() Function:
+
+The make_album() function creates an album object based on the provided parameters.
+Parameters:
+artist_name: A string representing the name of the artist.
+album_title: A string representing the title of the album.
+num_tracks (optional): An optional number representing the number of tracks on the album.
+Returns:
+An object of type Album containing the artist name, album title, and optionally, the number of tracks.
+Implementation:
+
+Inside the function, an object of type Album is created with the provided artist_name and album_title.
+If num_tracks is provided (i.e., not undefined), the tracks property is added to the album object.
+The album object is returned.
+Usage:
+
+The function is used to create three different albums with varying parameters.
+The album objects are stored in variables (album1, album2, album3).
+Each album object is printed to the console to verify that the album information is stored correctly.
+Output:
+
+The output consists of three album objects, each representing a different album.
+Each object contains properties for the artist name, album title, and optionally, the number of tracks.
+Overall, the provided work implements a function and an interface in TypeScript to create album objects and demonstrates their usage by creating and printing three album objects.
+
+
+
+
+
+
